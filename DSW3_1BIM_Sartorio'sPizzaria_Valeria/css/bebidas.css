@@ -1,0 +1,52 @@
+.container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 440px 440px;
+    gap: 5px;
+}
+
+h1 {
+    font-family: alwaysSmile;
+    font-size: 60px;
+    text-align: center;
+}
+
+.card {
+    width: 300px;
+    height: 150px;
+}
+
+.cardCoca1 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.cardCoca2 {
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+.cardFantaGuarana {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.cardFantaLaranja {
+    grid-column: 4/4;
+    grid-row: 1/2;
+}
+
+.cardFantaUva {
+    grid-column: 1/4;
+    grid-row: 2/2;
+}
+
+.cardSchweppes {
+    grid-column: 2/4;
+    grid-row: 2/2;
+}
+
+.cardSprite {
+    grid-column: 3/4;
+    grid-row: 2/2;
+}

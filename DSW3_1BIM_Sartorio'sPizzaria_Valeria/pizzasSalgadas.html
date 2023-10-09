@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pizzas Salgadas</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
+        integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="css/pizzasSalgadas.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand">
+        <img src="imagens/index/logoPizzaria.png" width="110px" height="100px">
+        <span>
+            Seja bem vindo(a)!
+        </span>
+        <ul class="navbar-nav">
+            <li class="nav-item m-1">
+                <a href="index.html" class="nav-link text-decoration-none" style="color:white;">
+                    <i class="bi bi-house-door" style="color: greenyellow; font-size:29px;"></i>
+                    Página Inicial
+                </a>
+            </li>
+
+            <div class="nav-item dropdown m-3">
+                <p class="nav-item dropdown-toggle" data-toggle="dropdown" style="color:white;">
+                    <i class="bi bi-alarm" style="color: greenyellow; font-size:25px;"></i>
+                    Horário de atendimento
+                </p>
+                <div class="dropdown-menu">
+                    <p class="dropdown-item">Domingo, 18:00 da noite - 23:00 da noite</p>
+                    <p class="dropdown-item">Segunda-feira, Fechada</p>
+                    <p class="dropdown-item">Terça-feira, 18:00 da noite - 23:00 da noite</p>
+                    <p class="dropdown-item">Quarta-feira, 18:00 da noite - 23:00 da noite</p>
+                    <p class="dropdown-item">Quinta-feira, 18:00 da noite - 23:00 da noite</p>
+                    <p class="dropdown-item">Sexta-feira, 18:00 da noite - 23:00 da noite</p>
+                    <p class="dropdown-item">Sábado, 18:00 da noite - 23:00 da noite</p>
+                </div>
+            </div>
+
+            <div class="nav-item dropdown m-3">
+                <p class="nav-item dropdown-toggle" data-toggle="dropdown" style="color:white;">
+                    <i class="bi bi-list" style="color: greenyellow; font-size:25px;"></i>
+                    Cardápio
+                </p>
+                <div class="dropdown-menu" style="text-align: center;">
+                    <a href="pizzasSalgadas.html" class="nav-link text-decoration-none" style="color:black">Pizzas
+                        Salgadas</a>
+                    <a href="pizzasDoces.html" class="nav-link text-decoration-none" style="color:black">Pizzas
+                        Doces</a>
+                    <a href="bebidas.html" class="nav-link text-decoration-none" style="color:black">Bebidas</a>
+                </div>
+            </div>
+
+            <li class="nav-item m-2">
+                <a href="faleConosco.html" class="nav-link text-decoration-none" style="color:white;">
+                    <i class="bi bi-telephone-inbound" style="color: greenyellow; font-size:25px;"></i>
+                    Fale conosco
+                </a>
+            </li>
+
+            <li class="nav-item m-2">
+                <a href="avaliacao.html" class="nav-link text-decoration-none" style="color:white;">
+                    <i class="bi bi-chat-square" style="color:greenyellow; font-size: 25px;"></i>
+                    Avalie-nos
+                </a>
+            </li>
+
+            <li class="nav-item m-2">
+                <a href="#" class="nav-link text-decoration-none" style="color: white;">
+                    <i class="bi bi-cart3" style="font-size: 25px; color: greenyellow;"></i>
+                    Carrinho
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <h1 class="my-3">Pizzas Salgadas</h1>
+    <p id="pInfo">Preço único: R$32,00</p>
+    <div class="container">
+        <div class="card cardAmerica">
+            <img src="imagens/pizzasSalgadas/america.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">América</h5>
+                <p class="card-text">Molho de tomate, mussarela, pepperoni, champignon, cebola, orégano e pimentão verde.</p>
+                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card cardBacon">
+            <img src="imagens/pizzasSalgadas/bacon.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Bacon</h5>
+                <p class="card-text">Molho de tomate, mussarela, bacon, orégano e milho.</p><br>
+                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card cardCalabresa">
+            <img src="imagens/pizzasSalgadas/calabresa.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Calabresa</h5>
+                <p class="card-text">Molho de tomate, mussarela, calabresa, cebola e orégano.</p><br>
+                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card cardCalabresaEspecial">
+            <img src="imagens/pizzasSalgadas/calabresaEspecial.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Calabresa Especial</h5>
+                <p class="card-text">Molho de tomate, mussarela, azeitona preta, calabresa, cebola, orégano e cream cheese.</p>
+                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card cardCarneBacon">
+            <img src="imagens/pizzasSalgadas/carneBacon.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Carne com Bacon</h5>
+                <p class="card-text">Molho de tomate, mussarela, bacon, calabresa, pepperoni, orégano e presunto.</p>
+                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card cardCatupiryPepperoni">
+            <img src="imagens/pizzasSalgadas/catupiryPepperoni.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Catupiry com Pepperoni</h5>
+                <p class="card-text">Molho de tomate, mussarela, catupiry, pepperoni, requeijão, orégano e parmesão ralado.</p>
+                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card cardFrangoCreamCheese">
+            <img src="imagens/pizzasSalgadas/frangoCreamCheese.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Frango com Cream Cheese</h5>
+                <p class="card-text">Molho de tomate, mussarela, frango desfiado, cream cheese, orégano e parmesão ralado.</p>
+                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card cardFrangoGrelhado">
+            <img src="imagens/pizzasSalgadas/frangoGrelhado.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Frango Grelhado</h5>
+                <p class="card-text">Molho de tomate, mussarela, frango grelhado, requeijão, tomate, azeitona preta, orégano e manjericão.</p>
+                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card cardFrangoRequeijao">
+            <img src="imagens/pizzasSalgadas/frangoRequeijao.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Frango com Requeijão</h5>
+                <p class="card-text">Molho de tomate, mussarela, frango desfiado, cebola, orégano e requeijão.</p>
+                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card cardMarguerita">
+            <img src="imagens/pizzasSalgadas/marguerita.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Marguerita</h5>
+                <p class="card-text">Molho de tomate, mussarela, tomate, orégano e manjericão.</p><br>
+                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card cardMista">
+            <img src="imagens/pizzasSalgadas/mista.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Mista</h5>
+                <p class="card-text">Molho de tomate, mussarela, presunto, requeijão, orégano e tomate.</p>
+                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card cardNapolitana">
+            <img src="imagens/pizzasSalgadas/napolitana.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Napolitana</h5>
+                <p class="card-text">Molho de tomate, mussarela, tomate, orégano e parmesão ralado.</p><br>
+                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card cardOvoBacon">
+            <img src="imagens/pizzasSalgadas/ovoBacon.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Ovo com Bacon</h5>
+                <p class="card-text">Molho de tomate, mussarela, bacon, cebola, cream cheese, orégano e ovo cozido.</p>
+                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card cardPepperoni">
+            <img src="imagens/pizzasSalgadas/pepperoni.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Pepperoni</h5>
+                <p class="card-text">Molho de tomate, mussarela, orégano e pepperoni.</p><br>
+                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card cardPortuguesa">
+            <img src="imagens/pizzasSalgadas/portuguesa.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Portuguesa</h5>
+                <p class="card-text">Molho de tomate, mussarela, presunto, ovo cozido, azeitona preta, cebola, orégano e pimentão verde.</p>
+                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card cardPresunto">
+            <img src="imagens/pizzasSalgadas/presunto.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Presunto</h5>
+                <p class="card-text">Molho de tomate, mussarela, orégano e presunto.</p><br>
+                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card cardQueijo">
+            <img src="imagens/pizzasSalgadas/queijo.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Queijo</h5>
+                <p class="card-text">Molho de tomate, mussarela e orégano.</p><br>
+                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card card3queijos">
+            <img src="imagens/pizzasSalgadas/3queijos.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">3 Queijos</h5>
+                <p class="card-text">Molho de tomate, mussarela, requeijão, parmesão ralado e orégano.</p>
+                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card card4queijos">
+            <img src="imagens/pizzasSalgadas/4queijos.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">4 Queijos</h5>
+                <p class="card-text">Molho de tomate, mussarela, requeijão, parmesão ralado, gorgonzola e orégano.</p>
+                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+
+        <div class="card cardVegetariana">
+            <img src="imagens/pizzasSalgadas/vegetariana.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Vegetariana</h5>
+                <p class="card-text">Molho de tomate, mussarela, champignon, azeitona preta, cebola, orégano e pimentão verde.</p>
+                <a href="#" class="btn btn-primary">Adicionar ao carrinho</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h3>Venha conhecer nosso espaço!</h3>
+        <i class="bi bi-geo-alt" style="font-size: 30px;"></i>
+        Avenida São Carlos, 1500 - Centro - São Carlos, SP
+        <br><br><br>
+
+        <h3>Nos acompanhe em nossas redes socias!</h3>
+        <i class="bi bi-facebook mx-5" style="font-size: 30px;"></i>
+        Sartorio's Pizzaria
+
+        <i class="bi bi-instagram mx-5" style="font-size: 30px;"></i>
+        @sartorios_pizzaria
+
+        <i class="bi bi-twitter mx-5" style="font-size: 30px;"></i>
+        @sartorios_pizzaria
+
+        <i class="bi bi-whatsapp mx-5" style="font-size: 30px;"></i>
+        (16) 9 2222-4444
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"
+        integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+.container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 522px 522px 522px 522px 522px;
+    gap: 5px;
+}
+
+h1 {
+    font-family: alwaysSmile;
+    font-size: 60px;
+    text-align: center;
+}
+
+#pInfo {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+
+.card {
+    width: 300px;
+    height: 261px;
+}
+
+.cardAmerica {
+    grid-column: 1/4;
+    grid-row: 1/5;
+}
+
+.cardBacon {
+    grid-column: 2/4;
+    grid-row: 1/5;
+}
+
+.cardCalabresa {
+    grid-column: 3/4;
+    grid-row: 1/5;
+}
+
+.cardCalabresaEspecial {
+    grid-column: 4/4;
+    grid-row: 1/5;
+}
+
+.cardCarneBacon {
+    grid-column: 1/4;
+    grid-row: 2/5;
+}
+
+.cardCatupiryPepperoni {
+    grid-column: 2/4;
+    grid-row: 2/5;
+}
+
+.cardFrangoCreamCheese {
+    grid-column: 3/4;
+    grid-row: 2/5;
+}
+
+.cardFrangoGrelhado {
+    grid-column: 4/4;
+    grid-row: 2/5;
+}
+
+.cardFrangoRequeijao {
+    grid-column: 1/4;
+    grid-row: 3/5;
+}
+
+.cardMarguerita {
+    grid-column: 2/4;
+    grid-row: 3/5;
+}
+
+.cardMista {
+    grid-column: 3/4;
+    grid-row: 3/5;
+}
+
+.cardNapolitana {
+    grid-column: 4/4;
+    grid-row: 3/5;
+}
+
+.cardOvoBacon {
+    grid-column: 1/4;
+    grid-row: 4/5;
+}
+
+.cardPepperoni {
+    grid-column: 2/4;
+    grid-row: 4/5;
+}
+
+.cardPortuguesa {
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
+.cardPresunto {
+    grid-column: 4/4;
+    grid-row: 4/5;
+}
+
+.cardQueijo {
+    grid-column: 1/4;
+    grid-row: 5/5;
+}
+
+.card3queijos {
+    grid-column: 2/4;
+    grid-row: 5/5;
+}
+
+.card4queijos {
+    grid-column: 3/4;
+    grid-row: 5/5;
+}
+
+.cardVegetariana {
+    grid-column: 4/4;
+    grid-row: 5/5;
+}
